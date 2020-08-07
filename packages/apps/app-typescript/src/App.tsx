@@ -3,7 +3,7 @@ import ReactLogo from './ReactLogo.svg';
 import YarnCat from './YarnCat.svg';
 import './App.css';
 
-import { CompOne, CompTwo } from '@project/components-typescript';
+import { CompOne, CompTwo, Button } from '@project/components-typescript';
 
 const App: React.FC = () => {
   return (
@@ -28,10 +28,12 @@ const App: React.FC = () => {
           <code className="file">packages/apps/app-typescript/src/App.tsx</code>
           <code className="file">packages/components/src/CompOne/CompOne.tsx</code>
           <code className="file">packages/components/src/CompTwo/CompTwo.tsx</code>
+          <code className="file">packages/components/src/Button/Button.tsx</code>
         </p>
         <div className="components">
           <CompOne />
           <CompTwo />
+          <Button bg="dodgerblue">The same button</Button>
         </div>
       </header>
     </div>
