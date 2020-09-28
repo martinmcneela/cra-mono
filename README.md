@@ -1,3 +1,15 @@
+
+
+
+
+Based on: https://github.com/react-workspaces/react-workspaces-playground
+
+### Notes
+
+For some reason you need to start the app(s) before storybook in order to get them all to update when the shared components are changed.
+
+# Original ReadMe
+
 ![React Workspaces Playground Screenshots](https://i.imgur.com/7snWXD0.png)
 
 ![Join us on Slack](https://img.shields.io/badge/Slack-React--Workpaces-EBB424?style=for-the-badge&logo=slack)

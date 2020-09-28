@@ -6,6 +6,6 @@ interface ButtonProps {
   bg: string;
 }
 
-const Button: React.FC<ButtonProps> = ({children, bg, ...props}: ButtonProps) => <button className="button" style={{background: `${bg}`}} {...props}>{children}</button>;
+const Button: React.FC<ButtonProps> = ({ children, bg, ...props }: ButtonProps) => <button className="button" style={{ background: `${bg}` }} {...props}>{children}</button>;
 
 export default Button;
